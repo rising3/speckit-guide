@@ -3,8 +3,13 @@ import { defineConfig } from 'astro/config';
 import mermaid from 'astro-mermaid';
 import starlight from '@astrojs/starlight';
 
+const site = 'https://rising3.github.io';
+const base = '/speckit-guide';
+
 // https://astro.build/config
 export default defineConfig({
+	site,
+	base,
 	integrations: [
 		mermaid(),
 		starlight({
