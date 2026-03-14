@@ -1,6 +1,8 @@
 ---
 title: "Spec Kitクイックスタートガイド"
 description: "初めて Spec Kit を使う人向けに、最短の実行順と各コマンドへの入力内容をまとめます。"
+sidebar:
+  order: 2
 ---
 ## このドキュメントの目的
 

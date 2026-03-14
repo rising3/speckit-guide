@@ -2,10 +2,13 @@
 title: "Spec Kitコマンドガイド"
 description: "GitHub Spec Kit の全体像と、クイックスタート/詳細リファレンスの使い分けを案内します。"
 ---
-このページは、GitHub Spec Kitのガイドの入口です。用途に応じて、次の2種類のドキュメントを使い分けてください。
+このページは、GitHub Spec Kit のガイドの入口です。用途に応じて、次のドキュメントを使い分けてください。
 
 - 初めて使う人向けの短縮版: [Spec Kitクイックスタートガイド](/speckit-guide/guides/quickstart/)
 - 実行順、入出力、前後関係まで確認したい人向けの詳細版: [Spec Kitコマンド詳細リファレンス](/speckit-guide/reference/command-reference-overview/)
+- 仕様書(SoT)と Spec Kit の仕様同期・成熟度を整理したガイド: [仕様書(SoT)と Spec Kit の仕様同期・成熟度ガイド](/speckit-guide/guides/docs-sync/)
+- `specs/**` の履歴資産としての扱いを整理したガイド: [`specs/**` 履歴資産運用ガイド](/speckit-guide/operations/)
+- 実装やコマンド仕様の調査結果をまとめたノート: [Spec Kit調査ノート](/speckit-guide/research/)
 
 ## 最短で把握したい全体像
 
