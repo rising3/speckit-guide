@@ -1,5 +1,5 @@
 ---
-title: "`specs/**` 履歴資産運用ガイド"
+title: "Spec Kitの履歴資産運用ガイド"
 description: "`implement` 後の `specs/**` の扱いと、再実行時の上書き・退避・新テーマの判断基準を整理した運用ガイドです。"
 ---
 

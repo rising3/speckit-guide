@@ -1,5 +1,5 @@
 ---
-title: "仕様書(SoT)と Spec Kit の仕様同期・成熟度ガイド"
+title: "仕様書(SoT)の同期・成熟度ガイド"
 description: "仕様書(SoT) と `/speckit.specify`・`/speckit.plan` の関係、仕様成熟度、再同期ルールを整理します。"
 ---
 
