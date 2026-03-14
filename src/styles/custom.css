@@ -1,0 +1,10 @@
+/* Loaded via Starlight `customCss` in astro.config.mjs to tune docs table layout. */
+
+.sl-markdown-content table:not(:where(.not-content *)) {
+	overflow-x: auto;
+	table-layout: auto;
+}
+
+.sl-markdown-content :is(th, td):not(:where(.not-content *)) {
+	white-space: nowrap;
+}

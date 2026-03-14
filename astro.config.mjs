@@ -15,6 +15,7 @@ export default defineConfig({
 		starlight({
 			title: 'Spec Kit Guide',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/rising3/speckit-guide' }],
+			customCss: ['/src/styles/custom.css'],
 			sidebar: [
 				{
 					label: 'ガイド',
