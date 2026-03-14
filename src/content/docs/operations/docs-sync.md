@@ -1,8 +1,6 @@
 ---
 title: "仕様書(SoT)と Spec Kit の仕様同期・成熟度ガイド"
 description: "仕様書(SoT) と `/speckit.specify`・`/speckit.plan` の関係、仕様成熟度、再同期ルールを整理します。"
-sidebar:
-  order: 3
 ---
 
 このページは、**仕様書(SoT)、`/speckit.specify` と `/speckit.plan` の関係、時間軸に応じた仕様書の深さ** を一つの流れとして整理したガイドです。
