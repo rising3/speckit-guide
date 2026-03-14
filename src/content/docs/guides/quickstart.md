@@ -257,4 +257,4 @@ tasks.md に従って実装を進めます。
 
 ## 次に読むべきもの
 
-各コマンドの入出力、成果物の受け渡し、レビュー観点まで見たい場合は、[Spec Kitコマンド詳細リファレンス](../reference/command-reference-overview/) を参照してください。
+各コマンドの入出力、成果物の受け渡し、レビュー観点まで見たい場合は、[Spec Kitコマンド詳細リファレンス](../../reference/command-reference-overview/) を参照してください。
