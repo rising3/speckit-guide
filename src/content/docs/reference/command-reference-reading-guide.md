@@ -9,6 +9,19 @@ sidebar:
 
 このセクションは、各コマンドが何を生成し、そのファイルをどう読めば次の意思決定につながるかをまとめたものです。
 
+## 先に押さえる入力例
+
+| コマンド | 引数必須か | 代表例 |
+| --- | --- | --- |
+| `/speckit.constitution` | 任意 | `Library-First、CLI互換、TDD必須、観測性、SemVer遵守を非交渉原則として追加してください` |
+| `/speckit.specify` | 必須 | `Create a customer support dashboard where agents can claim tickets, add internal notes, change ticket status, and escalate unresolved issues...` |
+| `/speckit.clarify` | 任意 | `Clarify data retention, audit logging, and failure notification behavior.` |
+| `/speckit.checklist` | 任意 | `API contracts completeness and consistency` |
+| `/speckit.plan` | 任意 | `Use Next.js for the web app, Supabase for authentication and storage, and background jobs for asynchronous notifications...` |
+| `/speckit.tasks` | 任意 | `Focus on User Story 1 only for the MVP. Skip User Stories 2 and 3 for now.` |
+| `/speckit.analyze` | 任意 | `Review terminology drift between spec, plan, and tasks.` |
+| `/speckit.implement` | 任意 | `Implement only the API and test tasks first. Leave the frontend tasks unchecked.` |
+
 ### /speckit.constitution が作るもの
 
 #### constitution.md の役割

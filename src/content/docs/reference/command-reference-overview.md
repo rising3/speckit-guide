@@ -70,6 +70,19 @@ flowchart TD
 - analyze: 仕様、計画、タスクの整合性を検査する
 - implement: タスクに沿って実装を進める
 
+### 引数の早見表
+
+| コマンド | 引数の要否 | 代表的な引数例 |
+| --- | --- | --- |
+| `/speckit.constitution` | 任意 | `テストファースト、API互換性維持、監査ログ、レスポンス性能、UI一貫性を必須原則として定義してください` |
+| `/speckit.specify` | 必須 | `Build an application that helps a small team manage projects, tasks, and comments...` |
+| `/speckit.clarify` | 任意 | `Focus on security and performance requirements.` |
+| `/speckit.checklist` | 任意 | `Create a checklist for the following domain: security` |
+| `/speckit.plan` | 任意 | `Use FastAPI for backend services, PostgreSQL for storage, and React for the frontend...` |
+| `/speckit.tasks` | 任意 | `We have 3 developers. Please maximize parallel task opportunities.` |
+| `/speckit.analyze` | 任意 | `Check if all non-functional requirements have corresponding tasks.` |
+| `/speckit.implement` | 任意 | `MVP mode: Only implement User Story 1. Stop after validation.` |
+
 ## 標準的な実行順
 
 ### 1. /speckit.constitution
