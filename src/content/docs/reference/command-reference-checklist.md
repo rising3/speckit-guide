@@ -19,6 +19,10 @@ sidebar:
 /speckit.checklist Create a checklist for the following domain: security
 ```
 
+### 引数の扱い
+
+任意です。引数なしなら汎用的な checklist を作り、引数ありなら対象ドメイン、深さ、must-have 観点を指定できます。
+
 ### 実際のプロンプト例
 
 ```text
@@ -35,6 +39,10 @@ sidebar:
 
 ```text
 /speckit.checklist API contracts completeness and consistency
+```
+
+```text
+/speckit.checklist Accessibility checklist for keyboard navigation, focus order, and screen reader wording consistency
 ```
 
 ### 主な処理

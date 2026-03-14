@@ -11,6 +11,10 @@ sidebar:
 
 プロジェクト全体で守るべき原則を定義します。以降のすべてのコマンドに対して、品質基準と設計方針を与える土台です。
 
+### 引数の扱い
+
+任意です。引数なしでも実行できますが、重視したい原則や改訂内容を自然言語で渡したほうが constitution の方向性が安定します。
+
 ### 典型的な入力
 
 - コード品質の原則
@@ -22,11 +26,16 @@ sidebar:
 ### 実際のプロンプト例
 
 ```text
+/speckit.constitution
 /speckit.constitution コード品質、テスト、自動化、アクセシビリティ、パフォーマンス、セキュリティを重視するプロジェクト原則を定義してください
 ```
 
 ```text
 /speckit.constitution テストファースト、API互換性維持、監査ログ、レスポンス性能、UI一貫性を必須原則として定義してください
+```
+
+```text
+/speckit.constitution Library-First、CLI互換、TDD必須、観測性、SemVer遵守を非交渉原則として追加してください
 ```
 
 ### 生成・更新されるもの
@@ -55,6 +64,10 @@ sidebar:
 /speckit.specify <自然言語によるフィーチャー説明>
 ```
 
+### 引数の扱い
+
+必須です。自然言語の feature description を渡します。Who / What / Why / Out of Scope / Success Criteria に当たる内容を書くと安定します。
+
 ### 実際のプロンプト例
 
 ```text
@@ -63,6 +76,14 @@ sidebar:
 
 ```text
 /speckit.specify Develop a photo organization application. Users can create albums grouped by date, reorder albums by drag and drop, and preview photos in a tile layout. Nested albums are out of scope.
+```
+
+```text
+/speckit.specify Create a customer support dashboard where agents can claim tickets, add internal notes, change ticket status, and escalate unresolved issues. Phone integration is out of scope.
+```
+
+```text
+/speckit.specify Build an internal approval workflow for expense requests. Employees can submit requests, managers can approve or reject them, and finance can export approved items. Reimbursement payment itself is out of scope.
 ```
 
 ### この段階で書くべきこと
@@ -121,6 +142,10 @@ spec.md の曖昧さや抜けを減らすための対話型コマンドです。
 /speckit.clarify Focus on security and performance requirements.
 ```
 
+### 引数の扱い
+
+任意です。引数なしなら spec 全体の曖昧さを自動スキャンし、引数ありなら特定の曖昧さや重点論点を指定できます。
+
 ### 実際のプロンプト例
 
 ```text
@@ -133,6 +158,10 @@ spec.md の曖昧さや抜けを減らすための対話型コマンドです。
 
 ```text
 /speckit.clarify I want to clarify task card details, comment behavior, and project switching flow.
+```
+
+```text
+/speckit.clarify Clarify data retention, audit logging, and failure notification behavior.
 ```
 
 ### 主な処理
