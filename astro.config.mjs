@@ -43,7 +43,7 @@ export default defineConfig({
 					label: '運用ガイド',
 					items: [
 						'operations/docs-sync',
-						'operations',
+						'operations/speckit-specs',
 					],
 				},
 				{
