@@ -163,8 +163,8 @@ sequenceDiagram
 
 長い詳細リファレンスを、目的ごとに次のページへ分割しました。
 
-- [コマンド出力の読み方と成果物ガイド](../command-reference-reading-guide/)
-- [仕様決定フェーズ: constitution, specify, clarify](../command-reference-constitution-specify-clarify/)
-- [品質ゲート: checklist](../command-reference-checklist/)
-- [実装準備フェーズ: plan, tasks, analyze](../command-reference-plan-tasks-analyze/)
-- [実装フェーズと使い分けガイド](../command-reference-implement/)
+- [コマンド出力の読み方と成果物ガイド](/speckit-guide/reference/command-reference-reading-guide/)
+- [仕様決定フェーズ: constitution, specify, clarify](/speckit-guide/reference/command-reference-constitution-specify-clarify/)
+- [品質ゲート: checklist](/speckit-guide/reference/command-reference-checklist/)
+- [実装準備フェーズ: plan, tasks, analyze](/speckit-guide/reference/command-reference-plan-tasks-analyze/)
+- [実装フェーズと使い分けガイド](/speckit-guide/reference/command-reference-implement/)

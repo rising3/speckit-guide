@@ -7,10 +7,10 @@ hero:
   tagline: "GitHub Spec Kit の実行順、役割分担、実務での使い方を日本語で素早く参照できます。"
   actions:
     - text: "コマンドガイドを読む"
-      link: "./guides/"
+      link: "/speckit-guide/guides/"
       icon: right-arrow
     - text: "クイックスタートへ"
-      link: "./guides/quickstart/"
+      link: "/speckit-guide/guides/quickstart/"
       icon: right-arrow
       variant: minimal
 ---
@@ -22,23 +22,23 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 <CardGrid stagger>
   <Card title="Spec Kitコマンドガイド" icon="open-book">
     GitHub Spec Kit の全体像と、短縮版/詳細版の読み分けを確認したいときの入口です。
-    [ページを開く](./guides/)
+    [ページを開く](/speckit-guide/guides/)
   </Card>
   <Card title="Spec Kitクイックスタートガイド" icon="pencil">
     初めて触る人向けに、最小限の推奨フローと各コマンドに何を書くかをまとめています。
-    [ページを開く](./guides/quickstart/)
+    [ページを開く](/speckit-guide/guides/quickstart/)
   </Card>
   <Card title="Spec Kitコマンド詳細リファレンス" icon="document">
     各コマンドの入力、出力、前後関係、成果物の受け渡しまで詳しく確認できます。
-    [ページを開く](./reference/command-reference-overview/)
+    [ページを開く](/speckit-guide/reference/command-reference-overview/)
   </Card>
   <Card title="Spec Kit調査ノート" icon="document">
     `github/spec-kit` リポジトリの構造、コマンド本体、内部スクリプト引数まで調べた調査ページです。
-    [ページを開く](./research/)
+    [ページを開く](/speckit-guide/research/)
   </Card>
   <Card title="`specs/**` 履歴資産運用ガイド" icon="document">
     `implement` 後の `specs/**` の扱いと、再実行時の上書き・退避・新テーマの判断基準をまとめています。
-    [ページを開く](./operations/)
+    [ページを開く](/speckit-guide/operations/)
   </Card>
   <Card title="Spec Kit" icon="github">
     Build high-quality software faster.
