@@ -15,10 +15,14 @@ export default defineConfig({
 		starlight({
 			title: 'Spec Kit Guide',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/rising3/speckit-guide' }],
+			customCss: ['/src/styles/custom.css'],
 			sidebar: [
 				{
 					label: 'ガイド',
-					autogenerate: { directory: 'guides' },
+					items: [
+						'guides',
+						'guides/quickstart',
+					],
 				},
 				{
 					label: 'リファレンス',
@@ -38,7 +42,10 @@ export default defineConfig({
 				},
 				{
 					label: '運用ガイド',
-					autogenerate: { directory: 'operations' },
+					items: [
+						'operations/docs-sync',
+						'operations/speckit-specs',
+					],
 				},
 				{
 					label: '調査ノート',

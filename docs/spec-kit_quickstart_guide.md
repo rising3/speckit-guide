@@ -38,7 +38,7 @@ flowchart LR
 - `/speckit.specify` だけは機能説明の引数が必須です。
 - それ以外のコマンドは引数なしでも実行できます。
 - 引数は `--flag` ではなく、コマンドの後ろに自然言語で足す追加指示だと考えると分かりやすいです。
-- `clarify` / `checklist` / `analyze` は省略可能な任意ステップですが、引数を渡すと確認観点を絞れます。
+- `clarify` / `checklist` / `analyze` は任意ですが、`clarify` は推奨、`analyze` は強く推奨です。引数を渡すと確認観点を絞れます。
 
 ## まず理解しておくべき原則
 
@@ -106,7 +106,7 @@ flowchart LR
 
 ### 3. /speckit.clarify
 
-specify で作った仕様の曖昧さを減らします。通常は plan の前に実行します。
+specify で作った仕様の曖昧さを減らします。通常は plan の前に実行する推奨ステップです。
 
 #### 引数の扱い
 
@@ -123,7 +123,7 @@ specify で作った仕様の曖昧さを減らします。通常は plan の前
 
 ### 4. /speckit.checklist
 
-要件文書の品質チェックリストを作ります。spec の後と plan の後に使えます。
+spec.md や plan.md の品質を確認するためのチェックリストを作ります。spec の後と plan の後に使えます。
 
 #### 引数の扱い
 
@@ -184,7 +184,7 @@ plan.md と spec.md から実装タスクを作ります。
 
 ### 7. /speckit.analyze
 
-spec.md、plan.md、tasks.md の整合性を確認します。実装前の最終点検です。
+spec.md、plan.md、tasks.md の整合性を確認します。実装前の最終点検であり、通常は tasks の後に挟むことを強く推奨します。
 
 #### 引数の扱い
 

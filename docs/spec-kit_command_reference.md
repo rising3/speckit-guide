@@ -128,7 +128,7 @@ sequenceDiagram
     U->>C: 原則を定義
     C-->>U: constitution.md
     U->>S: 機能説明を渡す
-    S-->>U: spec.md, requirements.md
+    S-->>U: spec.md, checklists/requirements.md
     U->>CL: 曖昧点を解消
     CL-->>U: spec.md更新
     U->>P: 技術方針を渡す
@@ -488,7 +488,7 @@ sequenceDiagram
 - フィーチャー名から短いブランチ名を生成する
 - 重複ブランチや重複ディレクトリを確認する
 - spec.md を生成する
-- requirements.md を生成して品質チェックする
+- checklists/requirements.md を生成して品質チェックする
 - NEEDS CLARIFICATION を最大3件提示する
 
 #### 生成されるもの

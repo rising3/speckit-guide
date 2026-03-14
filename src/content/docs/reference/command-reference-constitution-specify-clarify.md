@@ -109,7 +109,7 @@ sidebar:
 - フィーチャー名から短いブランチ名を生成する
 - 重複ブランチや重複ディレクトリを確認する
 - spec.md を生成する
-- requirements.md を生成して品質チェックする
+- checklists/requirements.md を生成して品質チェックする
 - NEEDS CLARIFICATION を最大3件提示する
 
 ### 生成されるもの
