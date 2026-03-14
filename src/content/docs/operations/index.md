@@ -7,8 +7,8 @@ description: "`implement` 後の `specs/**` の扱いと、再実行時の上書
 
 次の前提で読み進めてください。
 
-- `docs/**`: Spec Kit に入力する人が作成・メンテナンスする正式仕様書
-- `brief`: Spec Kit に入力する際の入力情報を取りまとめた文書（引数相当）
+- `docs/**`: Spec Kit に入力する人が作成・メンテナンスする仕様書(SoT)
+- `brief`: Spec Kit に入力する際の入力情報を取りまとめた文書（引数相当）。`specify-brief` / `plan-brief` はこの意味での運用上の呼称
 
 ## 1. 先に結論
 

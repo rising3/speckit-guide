@@ -146,7 +146,7 @@ sequenceDiagram
     U->>C: 原則を定義
     C-->>U: constitution.md
     U->>S: 機能説明を渡す
-    S-->>U: spec.md, requirements.md
+    S-->>U: spec.md, checklists/requirements.md
     U->>CL: 曖昧点を解消
     CL-->>U: spec.md更新
     U->>P: 技術方針を渡す
